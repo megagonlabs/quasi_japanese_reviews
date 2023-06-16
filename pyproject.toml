@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "quasi-japanese-reviews"
+version = "0.1.0"
+description = ""
+authors = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+maintainers = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+readme = "README.md"
+packages = [{include = "quasi_japanese_reviwes", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+asdc = {git = "https://github.com/megagonlabs/asdc", rev = "v4.8.4"}
+
+[tool.poetry.dev-dependencies]
+flake8 = ">=3.8.4"
+isort = ">=5.6.4"
+yamllint = ">=1.25.0"
+pydocstyle = ">=5.1.1"
+black = ">=21.11b1"
+toml = ">=0.10.2"
+coverage = ">=6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
