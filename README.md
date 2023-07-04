@@ -9,7 +9,7 @@
 This repository contains quasi Japanese reviews written by crowd workers.
 Some annotations are also included.
 
-### Hotel reviews ([tsv](data/text/hotel)
+### Hotel reviews
 
 - [Text](data/text/hotel): ``data/text/hotel/*.tsv``
 - [JSON](data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl): ``data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl``
