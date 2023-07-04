@@ -9,7 +9,7 @@
 This repository contains quasi Japanese reviews written by crowd workers.
 Some annotations are also included.
 
-### Hotel reviews
+### Hotel reviews (507 reviews)
 
 - [Text](data/text/hotel): ``data/text/hotel/*.tsv``
 - [JSON](data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl): ``data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl``
@@ -23,7 +23,7 @@ Some annotations are also included.
 ...
 ```
 
-### Sightseeing spot reviews
+### Sightseeing spot reviews (251 reviews)
 
 - [Text](data/text/spot): ``data/text/spot/*.tsv``
 - [JSON](data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl): ``data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl``

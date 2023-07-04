@@ -51,7 +51,7 @@ _test_format_vanilla:
 test_format: _test_format_vanilla
 test: test_python test_format
 
-validate: validate_example check_text
+validate: validate_example check_text check_count
 
 validate_example:
 	python -m asdc.check.format --type example -i ./data/scud/hotel --prefix "quasi_japanese_reviwes.hotel." --ref ./data/vanilla/hotel --all_correct
@@ -60,3 +60,8 @@ validate_example:
 check_text:
 	python -m src.vus2text -i ./data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl -o ./data/text/hotel --validate
 	python -m src.vus2text -i ./data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl -o ./data/text/spot --validate
+
+check_count:
+	python -m src.validate_count -i README.md \
+		--hotel ./data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl \
+		--spot ./data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl
