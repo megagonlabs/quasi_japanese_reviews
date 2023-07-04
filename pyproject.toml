@@ -5,7 +5,6 @@ description = ""
 authors = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
 maintainers = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
 readme = "README.md"
-packages = [{include = "quasi_japanese_reviwes", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
