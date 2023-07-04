@@ -9,7 +9,11 @@
 This repository contains quasi Japanese reviews written by crowd workers.
 Some annotations are also included.
 
-### Hotel reviews
+### Hotel reviews ([tsv](data/text/hotel)
+
+- [Text](data/text/hotel): ``data/text/hotel/*.tsv``
+- [JSON](data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl): ``data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl``
+- [SCUD](data/scud/hotel/quasi_hotel.Example.jsonl): ``data/scud/hotel/quasi_hotel.Example.jsonl``
 
 ```txt
 10月下旬に、札幌市内の●●ホテルに1人で泊まりました。
@@ -20,6 +24,10 @@ Some annotations are also included.
 ```
 
 ### Sightseeing spot reviews
+
+- [Text](data/text/spot): ``data/text/spot/*.tsv``
+- [JSON](data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl): ``data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl``
+- [SCUD](data/scud/spot/quasi_spot.Example.jsonl): ``data/scud/spot/quasi_spot.Example.jsonl``
 
 ```txt
 3月に●●ミュージアムに行きました。
