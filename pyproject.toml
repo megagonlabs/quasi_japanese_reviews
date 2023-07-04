@@ -9,7 +9,7 @@ packages = [{include = "quasi_japanese_reviwes", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
-asdc = {git = "https://github.com/megagonlabs/asdc", rev = "v4.8.4"}
+asdc = {git = "https://github.com/megagonlabs/asdc", rev = "v4.9.0"}
 
 [tool.poetry.dev-dependencies]
 flake8 = ">=3.8.4"
