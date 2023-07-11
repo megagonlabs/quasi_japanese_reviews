@@ -11,7 +11,7 @@ Some annotations are also included.
 
 ### Hotel reviews (507 reviews)
 
-- [Text](data/text/hotel): ``data/text/hotel/*.tsv``
+- [Text](data/text/hotel): ``data/text/hotel/*.txt``
 - [JSON](data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl): ``data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl``
 - [SCUD](data/scud/hotel/quasi_hotel.Example.jsonl): ``data/scud/hotel/quasi_hotel.Example.jsonl``
 
@@ -25,7 +25,7 @@ Some annotations are also included.
 
 ### Sightseeing spot reviews (251 reviews)
 
-- [Text](data/text/spot): ``data/text/spot/*.tsv``
+- [Text](data/text/spot): ``data/text/spot/*.txt``
 - [JSON](data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl): ``data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl``
 - [SCUD](data/scud/spot/quasi_spot.Example.jsonl): ``data/scud/spot/quasi_spot.Example.jsonl``
 

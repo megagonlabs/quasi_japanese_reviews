@@ -19,13 +19,13 @@ def operation(
 
             tmp: str = ""
             for uttr in vus.utterances:
-                tmp += f"{uttr.name}\t{uttr.text}\n"
+                tmp += f"{uttr.text}\n"
 
             if validate:
-                with path_out.joinpath(f"{vus.docid.id}.tsv").open() as inf:
+                with path_out.joinpath(f"{vus.docid.id}.txt").open() as inf:
                     assert inf.read() == tmp
             else:
-                with path_out.joinpath(f"{vus.docid.id}.tsv").open("w") as outf:
+                with path_out.joinpath(f"{vus.docid.id}.txt").open("w") as outf:
                     outf.write(tmp)
 
 
