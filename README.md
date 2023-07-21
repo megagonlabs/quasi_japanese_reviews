@@ -44,3 +44,14 @@ Formats of all files in [data](data) are the same as used in [asdc](https://gith
 ## License
 
 [Creative Commons Attribution 4.0 International License](LICENSE.txt)
+
+## Citation
+
+```tex
+@misc{megagonlabs_quasi_japanese_reviews,
+  title={Quasi Japanese Reviews},
+  url={https://github.com/megagonlabs/quasi_japanese_reviews},
+  author={Yuta Hayashibe},
+  year={2023},
+}
+```

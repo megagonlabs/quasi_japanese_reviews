@@ -7,7 +7,7 @@ setup: setup_npm setup_python
 setup_npm:
 	npm install
 
-lint:lint_markdown lint_python
+lint:lint_markdown lint_python lint_cff
 
 lint_markdown:
 	find *.md | grep '\.md$$' \
@@ -65,3 +65,6 @@ check_count:
 	python -m src.validate_count -i README.md \
 		--hotel ./data/vanilla/hotel/quasi_hotel.VanillaUtterance.jsonl \
 		--spot ./data/vanilla/spot/quasi_spot.VanillaUtterance.jsonl
+
+lint_cff:
+	cffconvert --validate
